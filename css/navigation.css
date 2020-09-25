@@ -1,0 +1,35 @@
+nav ul{
+    padding: 0%;
+    list-style: none;
+    margin: 0;
+    position: relative;
+}       
+nav ul li{
+    float: left;
+    padding: 0%;
+    margin: 0%;
+}
+nav ul li a{
+    padding: 6px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+}
+nav ul a:hover{
+    background: indigo;
+}
+nav ul li ul{
+    padding: 0%;
+    list-style: none;
+    margin: 0;
+    position: relative;
+    display: none;
+}
+nav ul li ul li{
+    background: green;
+    float: none;
+}
+nav ul li:hover ul{
+    display: block;
+}
