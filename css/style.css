@@ -26,7 +26,25 @@ aside ul{
     padding-top: 0%;
 }
 footer{
-    background-color: blueviolet;
+    background-color: rgb(40, 136, 226);
     margin: auto;
     clear: both;
 }
+.fa{
+    padding: 5px;
+    width: 10px;
+    text-decoration: none;
+}
+.fa:hover {
+    color: red;
+  }
+
+  .fa-facebook {
+    color: white;
+  }
+  .fa-twitter {
+    color: white;
+  }
+  .fa-instagram{
+      color: white;
+  }
